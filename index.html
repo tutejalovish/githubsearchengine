@@ -1,0 +1,87 @@
+<html>
+        <title>Github Search Engine</title>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+    </head>
+    <style>
+      body
+      {
+        background-image:url('bg-main.jpg') ;
+        background-repeat:no-repeat;
+        background-size:1525px 1670px;
+	    
+
+      }
+      .input-group
+      {
+          margin-bottom: 1000px;
+          width:970px;
+          margin-left: 250px;
+      }
+      .wrapper {
+  height: 55vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+  animation-iteration-count: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 3em;
+  margin-top: 300px;
+  color:red;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+    </style>
+    <body>
+        
+        
+        <p id="demo"></p>
+        <div class="wrapper">
+            <div class="typing-demo">
+              GIT HUB SEARCH ENGINE.
+            </div>
+        </div>
+        <div class="input-group">
+            <input type="search" id="searchss" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <button class="searchButton">Click me</button>
+          </div>
+          
+                  <p class="main__profile-name main__profile-key" style="margin-top:-950px ; margin-left:450px;color:yellow;">
+                    
+                  </p>
+                  <p class="main__profile-username main__profile-key" style="margin-top:-38px ; margin-left:790px;color:rgb(0, 255, 183);">
+    
+                  </p>
+               
+                      <p class="main__profile-repos main__profile-key" style="margin-top:-10px ; margin-left:450px;color:greenyellow;">
+    
+                  </p>
+                  <p class="main__profile-url main__profile-key" style="margin-top:-35px ; margin-left:790px;color:rgb(111, 255, 0);">
+    
+                  </p>
+                
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="app.js"></script>    
+      </body>
+</html>
