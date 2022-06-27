@@ -4,7 +4,7 @@ const nameContainer=document.querySelector(".main__profile-name");
 const unContainer=document.querySelector(".main__profile-username");
 const reposContainer=document.querySelector(".main__profile-repos");
 const urlContainer=document.querySelector(".main__profile-url");
-const urlContainer=document.querySelector(".main__profile-url");
+const urlContainer=document.querySelector(".main__profile-urls");
 const client_id="Iv1.59b004e8e82c91d0";
 const client_secret="80c5e6ec6b2b1b1d8d69b65be4008151614dcb67";
 console.log("helo");
@@ -21,7 +21,7 @@ const showData=()=>{
     unContainer.innerHTML=`Username:<span class="main__profile-key">${res.data.login}</span>`;
     reposContainer.innerHTML=`Repos:<span class="main__profile-key">${res.data.public_repos}</span>`;
     urlContainer.innerHTML=`URL:<span class="main__profile-key">${res.data.url}</span>`;
-    urlContainer.innerHTML=`URL:<span class="main__profile-key">${res.data.html_url}</span>`;
+    urlsContainer.innerHTML=`URL:<span class="main__profile-key">${res.data.html_url}</span>`;
   })
 }
 searchButton.addEventListener("click",()=>{
