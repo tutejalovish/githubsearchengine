@@ -4,6 +4,7 @@ const nameContainer=document.querySelector(".main__profile-name");
 const unContainer=document.querySelector(".main__profile-username");
 const reposContainer=document.querySelector(".main__profile-repos");
 const urlContainer=document.querySelector(".main__profile-url");
+const urlContainer=document.querySelector(".main__profile-url");
 const client_id="Iv1.59b004e8e82c91d0";
 const client_secret="80c5e6ec6b2b1b1d8d69b65be4008151614dcb67";
 console.log("helo");
